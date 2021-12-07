@@ -26,7 +26,7 @@ scene.add( light );
 const loader = new GLTFLoader();
 
 
-loader.load( './models/Warthog.gltf', 
+loader.load( './models/Warthongo.gltf', 
  ( gltf ) => {
 
   scene.add( gltf.scene);
