@@ -48,10 +48,12 @@ loader.load( './models/Warthongo.gltf',
 
 
 camera.position.z = 3.5;
-camera.position.y = 1;
+camera.position.y = 2;
 camera.position.x = -1;
 
 
+camera.rotation.x = -0.2;
+camera.rotation.y = -0.5;
 
 function onWindowResize() {
 
