@@ -26,7 +26,7 @@ scene.add( light );
 const loader = new GLTFLoader();
 
 
-loader.load( './models/Warthongo.gltf', 
+loader.load( './models/otrajaja.gltf', 
  ( gltf ) => {
 
   scene.add( gltf.scene);
@@ -48,7 +48,7 @@ loader.load( './models/Warthongo.gltf',
 
 
 camera.position.z = 3.5;
-camera.position.y = 2;
+camera.position.y = 2n;
 camera.position.x = -1;
 
 
